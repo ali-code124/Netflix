@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'netflix-rg';
+    src: url('/font/NetflixSans_W_Rg.woff2') format('woff2'),
+        /* Modern Browsers */
+        /* url('path/to/font/file.woff') format('woff'); Older Browsers */
+        /* font-weight: normal;
+    font-style: normal; */
+}
+@font-face {
+    font-family: 'netflix-blk';
+    src: url('/font/NetflixSans_W_Blk.woff2') format('woff2'),
+        /* Modern Browsers */
+        /* url('path/to/font/file.woff') format('woff'); Older Browsers */
+        /* font-weight: normal;
+    font-style: normal; */
+}
+@font-face {
+    font-family: 'netflix-md';
+    src: url('/font/NetflixSans_W_Md.woff2') format('woff2'),
+        /* Modern Browsers */
+        /* url('path/to/font/file.woff') format('woff'); Older Browsers */
+        /* font-weight: normal;
+    font-style: normal; */
+}
+@font-face {
+    font-family: 'netflix-bd';
+    src: url('/font/NetflixSans_W_Bd.woff2') format('woff2'),
+        /* Modern Browsers */
+        /* url('path/to/font/file.woff') format('woff'); Older Browsers */
+        /* font-weight: normal;
+    font-style: normal; */
+}
+body{
+    font-family: "netflix-rg";
+    overflow-x: hidden;
+}
+/* h1{
+    font-family: "netflix bd";
+} */
+
+.netflix-bd{
+    font-family: "netflix-bd";
+}
+.netflix-md{
+    font-family: "netflix-md";
+}
+.netflix-blk{
+    font-family: "netflix-blk";
+}
+.netflix-rg{
+    font-family: "netflix-rg";
+}
+.scroll{
+    overflow-x: hidden;
+}
